@@ -2,56 +2,56 @@
     "tests":[
 
         {
-            "date":"28/09/2020",
+            "date":"28/9/20",
             "number_of_tests": 51109,
             "number_of_new_cases": 1494,
             "death": 16
         },
 
         {
-            "date":"29/09/2020",
+            "date":"29/9/20",
             "number_of_tests": 90185,
             "number_of_new_cases": 1648,
             "death": 24
         },
 
         {
-            "date":"30/09/2020",
+            "date":"30/9/20",
             "number_of_tests": 105564,
             "number_of_new_cases": 1851,
             "death": 19
         },
         
         {
-            "date":"01/10/2020",
+            "date":"1/10/20",
             "number_of_tests": 118236,
             "number_of_new_cases": 2548,
             "death": 24
         },
 
         {
-            "date":"02/10/2020",
+            "date":"2/10/20",
             "number_of_tests":120301,
             "number_of_new_cases": 2499,
             "death": 23
         },
 
         {
-        "date":"03/10/2020",
+        "date":"3/10/20",
         "number_of_tests": 118932,
         "number_of_new_cases": 2844,
         "death": 27
         },
         
         {
-            "date":"04/10/2020",
+            "date":"4/10/20",
             "number_of_tests": 92714,
             "number_of_new_cases": 2578,
             "death": 18
         },
-        
+
         {
-            "date":"05/10/2020",
+            "date":"5/10/20",
             "number_of_tests": 60241,
             "number_of_new_cases": 2257,
             "death": 16

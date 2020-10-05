@@ -15,6 +15,5 @@ for obj in data["tests"]:
 
 plt.plot(date,newCaseRate)
 plt.title("italy COVID-19 increase rate")
-plt.xlabel("date format in dd/mm/yyyy")
 plt.ylabel("rate in %")
 plt.show()
