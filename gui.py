@@ -1,4 +1,5 @@
 import tkinter as tk
+import json
 
 class App(tk.Frame):
     def __init__(self, master=None):
@@ -27,14 +28,29 @@ class App(tk.Frame):
         self.text_field_death.pack()
 
     def create_widgets(self):
-        self.submit = tk.Button(self,text="submit",command=self.say_hi)
+        self.submit = tk.Button(self,text="submit",command=self.update_JSON)
         self.submit.pack()
         
         self.quit = tk.Button(self, text="quit",fg="red",command=self.master.destroy)
         self.quit.pack(side="bottom")
     
-    def say_hi(self):
-        print("hi there!")
+    def update_JSON(self):
+        with open("cases.json") as file:
+            data = json.load(file)
+        
+        temp = data["tests"]
+        new_record = {
+            "date":self.text_field_date.get(),
+            "number_of_tests":self.text_field_tests.getint(),
+            "number_of_new_cases":self.text_field_cases.getint(),
+            "death":self.text_field_death.getint()
+        }
+
+        temp.append(new_record)
+
+        with open("test.json",'w') as test_file:
+            json.dump(data,test_file)
+
 
 root = tk.Tk()
 app = App(master=root)
