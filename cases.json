@@ -55,6 +55,13 @@
             "number_of_tests": 60241,
             "number_of_new_cases": 2257,
             "death": 16
+        },
+        
+        {
+            "date":"06/10/20",
+            "number_of_tests": 99742,
+            "number_of_new_cases": 2677,
+            "death": 28
         }
     ]
 }
