@@ -39,17 +39,23 @@ class App(tk.Frame):
             data = json.load(file)
         
         temp = data["tests"]
+        
+        field_date = self.text_field_date.get()
+        field_cases = int(self.text_field_cases.get())
+        field_tests = int(self.text_field_tests.get())
+        field_death = int(self.text_field_death.get())
+
         new_record = {
-            "date":self.text_field_date.get(),
-            "number_of_tests":self.text_field_tests.getint(),
-            "number_of_new_cases":self.text_field_cases.getint(),
-            "death":self.text_field_death.getint()
+            "date": field_date,
+            "number_of_tests": field_tests,
+            "number_of_new_cases": field_cases,
+            "death": field_death
         }
 
         temp.append(new_record)
 
         with open("test.json",'w') as test_file:
-            json.dump(data,test_file)
+            json.dump(data,test_file,indent=4)
 
 
 root = tk.Tk()
