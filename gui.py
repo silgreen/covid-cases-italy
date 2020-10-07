@@ -27,15 +27,18 @@ class App(tk.Frame):
         self.death_label.pack()
         self.text_field_death.pack()
 
+    def white_text_fields(self):
+        self.text_field_date.delete(0,"end")
+        self.text_field_tests.delete(0,"end")
+        self.text_field_cases.delete(0,"end")
+        self.text_field_death.delete(0,"end")
+
     def create_widgets(self):
         self.submit = tk.Button(self,text="submit",command=self.update_JSON)
         self.submit.pack()
-        
-        self.quit = tk.Button(self, text="quit",fg="red",command=self.master.destroy)
-        self.quit.pack(side="bottom")
     
     def update_JSON(self):
-        with open("cases.json") as file:
+        with open("test.json") as file:
             data = json.load(file)
         
         temp = data["tests"]
@@ -44,6 +47,8 @@ class App(tk.Frame):
         field_cases = int(self.text_field_cases.get())
         field_tests = int(self.text_field_tests.get())
         field_death = int(self.text_field_death.get())
+
+        self.white_text_fields()
 
         new_record = {
             "date": field_date,
@@ -58,7 +63,8 @@ class App(tk.Frame):
             json.dump(data,test_file,indent=4)
 
 
-root = tk.Tk()
+root = tk.Tk(className="covid-19 Data Form")
+root.geometry("500x200")
 app = App(master=root)
 app.mainloop()
 

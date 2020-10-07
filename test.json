@@ -47,12 +47,6 @@
             "number_of_tests": 60241,
             "number_of_new_cases": 2257,
             "death": 16
-        },
-        {
-            "date": "12/23/2012",
-            "number_of_tests": 2123,
-            "number_of_new_cases": 1234,
-            "death": 12
         }
     ]
 }
