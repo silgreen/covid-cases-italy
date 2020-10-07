@@ -5,9 +5,12 @@ and visualize data, for a beginner.
 
 <h2>Requirement</h2>
     <ul>
-        <li>Install Python</li>
-        <li>Install matplotlib</li>
+        <li>Install Python 🐍</li>
+        <li>Install matplotlib 📉</li>
     </ul>
 
 <h2>How to use</h2>
 create a JSON file with the same format of this project whith data of your country, and run the script, that's it!
+
+<h2>News</h2>
+I did a small gui to insert datas into the JSON file. I already did the pull request and solved various conflicts. I know, the whole project is very easy, but i must learn Python and the datas manipulation, forgive me 😅
