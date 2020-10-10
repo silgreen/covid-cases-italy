@@ -83,6 +83,13 @@
             "number_of_tests": 129471,
             "number_of_new_cases": 5372,
             "death": 28
+        },
+
+        {
+            "date":"10/10/20",
+            "number_of_tests": 133084,
+            "number_of_new_cases": 5724,
+            "death": 29
         }
     ]
 }
