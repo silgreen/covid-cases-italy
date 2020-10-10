@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import messagebox
 import json
 
 class App(tk.Frame):
@@ -61,6 +62,8 @@ class App(tk.Frame):
 
         with open("test.json",'w') as test_file:
             json.dump(data,test_file,indent=4)
+            
+        messagebox.showinfo(title="Covid-19 Form",message="Data registered correctly!")
 
 
 root = tk.Tk(className="covid-19 Data Form")
