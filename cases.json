@@ -111,6 +111,13 @@
             "number_of_tests": 112544,
             "number_of_new_cases": 5901,
             "death": 41
+        },
+
+        {
+            "date":"14/10/20",
+            "number_of_tests": 152196,
+            "number_of_new_cases": 7332,
+            "death": 43
         }
     ]
 }
