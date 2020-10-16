@@ -125,6 +125,13 @@
             "number_of_tests": 162932,
             "number_of_new_cases": 8804,
             "death": 83
+        },
+
+        {
+            "date":"16/10/20",
+            "number_of_tests": 150377,
+            "number_of_new_cases": 10010,
+            "death": 55
         }
     ]
 }

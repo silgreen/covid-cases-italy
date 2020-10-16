@@ -15,6 +15,8 @@ for obj in data["tests"]:
 
 
 plt.plot_date(date,newCaseRate,fmt='r-o')
+plt.grid()
+plt.xticks(visible=False)
 plt.title("italy COVID-19 increase rate")
 plt.ylabel("rate in %")
 plt.show()
