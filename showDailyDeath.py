@@ -11,7 +11,8 @@ for obj in data["tests"]:
     date.append(obj["date"])
     daily_death.append(obj["death"])
 
-plt.plot_date(date,daily_death,fmt='r-o')
+
+plt.bar(date,daily_death,width=0.5)
 plt.grid()
 plt.xticks(visible=False)
 plt.title("Daily deaths in italy")
