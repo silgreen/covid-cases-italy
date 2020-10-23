@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 date = []
 num_tests = []
 newCaseRate = []
+deaths = []
+plt2 = plt
 
 with open("cases.json") as jsFile:
     data = json.load(jsFile)
