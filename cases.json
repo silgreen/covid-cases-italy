@@ -2,59 +2,185 @@
     "tests":[
 
         {
-            "date":"28/09/2020",
+            "date":"28/09/20",
             "number_of_tests": 51109,
             "number_of_new_cases": 1494,
             "death": 16
         },
 
         {
-            "date":"29/09/2020",
+            "date":"29/09/20",
             "number_of_tests": 90185,
             "number_of_new_cases": 1648,
             "death": 24
         },
 
         {
-            "date":"30/09/2020",
+            "date":"30/09/20",
             "number_of_tests": 105564,
             "number_of_new_cases": 1851,
             "death": 19
         },
         
         {
-            "date":"01/10/2020",
+            "date":"01/10/20",
             "number_of_tests": 118236,
             "number_of_new_cases": 2548,
             "death": 24
         },
 
         {
-            "date":"02/10/2020",
+            "date":"02/10/20",
             "number_of_tests":120301,
             "number_of_new_cases": 2499,
             "death": 23
         },
 
         {
-        "date":"03/10/2020",
+        "date":"03/10/20",
         "number_of_tests": 118932,
         "number_of_new_cases": 2844,
         "death": 27
         },
         
         {
-            "date":"04/10/2020",
+            "date":"04/10/20",
             "number_of_tests": 92714,
             "number_of_new_cases": 2578,
             "death": 18
         },
 
         {
-            "date":"05/10/2020",
+            "date":"05/10/20",
             "number_of_tests": 60241,
             "number_of_new_cases": 2257,
             "death": 16
+        },
+        
+        {
+            "date":"06/10/20",
+            "number_of_tests": 99742,
+            "number_of_new_cases": 2677,
+            "death": 28
+        },
+
+        {
+            "date":"07/10/20",
+            "number_of_tests": 125314,
+            "number_of_new_cases": 3678,
+            "death": 31
+        },
+
+        {
+            "date":"08/10/20",
+            "number_of_tests": 128098,
+            "number_of_new_cases": 4458,
+            "death": 22
+        },
+
+        {
+            "date":"09/10/20",
+            "number_of_tests": 129471,
+            "number_of_new_cases": 5372,
+            "death": 28
+        },
+
+        {
+            "date":"10/10/20",
+            "number_of_tests": 133084,
+            "number_of_new_cases": 5724,
+            "death": 29
+        },
+
+        {
+            "date":"11/10/20",
+            "number_of_tests": 104658,
+            "number_of_new_cases": 5456,
+            "death": 26
+        },
+
+        {
+            "date":"12/10/20",
+            "number_of_tests": 85442,
+            "number_of_new_cases": 4619,
+            "death": 39
+        },
+
+        {
+            "date":"13/10/20",
+            "number_of_tests": 112544,
+            "number_of_new_cases": 5901,
+            "death": 41
+        },
+
+        {
+            "date":"14/10/20",
+            "number_of_tests": 152196,
+            "number_of_new_cases": 7332,
+            "death": 43
+        },
+
+        {
+            "date":"15/10/20",
+            "number_of_tests": 162932,
+            "number_of_new_cases": 8804,
+            "death": 83
+        },
+
+        {
+            "date":"16/10/20",
+            "number_of_tests": 150377,
+            "number_of_new_cases": 10010,
+            "death": 55
+        },
+
+        {
+            "date":"17/10/20",
+            "number_of_tests": 165837,
+            "number_of_new_cases": 10925,
+            "death": 47
+        },
+
+        {
+            "date":"18/10/20",
+            "number_of_tests": 146541,
+            "number_of_new_cases": 11705,
+            "death": 69
+        },
+
+        {
+            "date":"19/10/20",
+            "number_of_tests": 98862,
+            "number_of_new_cases": 9338,
+            "death": 73
+        },
+
+        {
+            "date":"20/10/20",
+            "number_of_tests": 144737,
+            "number_of_new_cases": 10874,
+            "death": 89
+        },
+
+        {
+            "date":"21/10/20",
+            "number_of_tests": 177848,
+            "number_of_new_cases": 15199,
+            "death": 127
+        },
+
+        {
+            "date":"22/10/20",
+            "number_of_tests": 170392,
+            "number_of_new_cases": 16079,
+            "death": 136
+        },
+
+        {
+            "date":"23/10/20",
+            "number_of_tests": 182032,
+            "number_of_new_cases": 19143,
+            "death": 91
         }
     ]
 }

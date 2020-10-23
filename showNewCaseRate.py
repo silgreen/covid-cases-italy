@@ -13,10 +13,12 @@ with open("cases.json") as jsFile:
 for obj in data["tests"]:
     date.append(obj["date"])
     num_tests.append(obj["number_of_tests"])
-    newCaseRate.append(obj["number_of_new_cases"] / obj["number_of_tests"] * 100)
+    newCaseRate.append((obj["number_of_new_cases"] / obj["number_of_tests"]) * 100)
 
 
 plt.plot_date(date,newCaseRate,fmt='r-o')
+plt.grid()
+plt.xticks(visible=False)
 plt.title("italy COVID-19 increase rate")
 plt.ylabel("rate in %")
 plt.show()
