@@ -10,7 +10,13 @@ and visualize data, for a beginner.
     </ul>
 
 <h2>How to use</h2>
-create a JSON file with the same format of this project whith data of your country, and run the script, that's it!
+<ol>
+<li>clone this repo</li>
+<li>fill the cases.json file as you want</li>
+<li>run the guy.py script to insert data in the json file</li>
+<li>run the showNewCaseRate.py to show the increase rate</li>
+<li>run the showDailyDeath.py to show the daily deaths</li>
+</ol> 
 
 
 
