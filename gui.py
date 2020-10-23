@@ -39,7 +39,7 @@ class App(tk.Frame):
         self.submit.pack()
     
     def update_JSON(self):
-        with open("test.json") as file:
+        with open("cases.json") as file:
             data = json.load(file)
         
         temp = data["tests"]
@@ -60,7 +60,7 @@ class App(tk.Frame):
 
         temp.append(new_record)
 
-        with open("test.json",'w') as test_file:
+        with open("cases.json",'w') as test_file:
             json.dump(data,test_file,indent=4)
             
         messagebox.showinfo(title="Covid-19 Form",message="Data registered correctly!")
