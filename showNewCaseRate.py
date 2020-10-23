@@ -7,7 +7,7 @@ newCaseRate = []
 deaths = []
 plt2 = plt
 
-with open("cases.json") as jsFile:
+with open("datas\cases.json") as jsFile:
     data = json.load(jsFile)
 
 for obj in data["tests"]:

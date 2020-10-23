@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 date = []
 daily_death = []
 
-with open('cases.json') as jsfile:
+with open('datas\cases.json') as jsfile:
     data = json.load(jsfile)
 
 for obj in data["tests"]:
