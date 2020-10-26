@@ -167,6 +167,12 @@
             "number_of_tests": 161880,
             "number_of_new_cases": 21273,
             "death": 128
+        },
+        {
+            "date": "26/10/20",
+            "number_of_tests": 124686,
+            "number_of_new_cases": 17012,
+            "death": 141
         }
     ]
 }
