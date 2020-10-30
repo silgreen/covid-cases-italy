@@ -185,6 +185,18 @@
             "number_of_tests": 198952,
             "number_of_new_cases": 24991,
             "death": 205
+        },
+        {
+            "date": "29/10/20",
+            "number_of_tests": 201452,
+            "number_of_new_cases": 26831,
+            "death": 217
+        },
+        {
+            "date": "30/10/20",
+            "number_of_tests": 215085,
+            "number_of_new_cases": 31084,
+            "death": 199
         }
     ]
 }
