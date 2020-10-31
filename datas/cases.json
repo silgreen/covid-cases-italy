@@ -197,6 +197,12 @@
             "number_of_tests": 215085,
             "number_of_new_cases": 31084,
             "death": 199
+        },
+        {
+            "date": "31/10/20",
+            "number_of_tests": 215886,
+            "number_of_new_cases": 31758,
+            "death": 297
         }
     ]
 }
