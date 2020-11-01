@@ -203,6 +203,12 @@
             "number_of_tests": 215886,
             "number_of_new_cases": 31758,
             "death": 297
+        },
+        {
+            "date": "01/11/20",
+            "number_of_tests": 183457,
+            "number_of_new_cases": 29907,
+            "death": 208
         }
     ]
 }
