@@ -233,6 +233,12 @@
             "number_of_tests": 219884,
             "number_of_new_cases": 34505,
             "death": 445
+        },
+        {
+            "date": "06/1120",
+            "number_of_tests": 234245,
+            "number_of_new_cases": 37809,
+            "death": 446
         }
     ]
 }
