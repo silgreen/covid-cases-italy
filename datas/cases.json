@@ -281,6 +281,12 @@
             "number_of_tests": 254908,
             "number_of_new_cases": 40902,
             "death": 550
+        },
+        {
+            "date": "14/11/20",
+            "number_of_tests": 227695,
+            "number_of_new_cases": 37255,
+            "death": 544
         }
     ]
 }
