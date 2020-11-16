@@ -293,6 +293,12 @@
             "number_of_tests": 195275,
             "number_of_new_cases": 33979,
             "death": 546
+        },
+        {
+            "date": "16/11/20",
+            "number_of_tests": 152663,
+            "number_of_new_cases": 27354,
+            "death": 504
         }
     ]
 }
