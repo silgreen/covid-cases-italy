@@ -36,8 +36,18 @@ class App(tk.Frame):
 
     def create_widgets(self):
         self.submit = tk.Button(self,text="submit",command=self.update_JSON)
+        self.daily_rate = tk.Button(self,text="Show increase rate",command=self.run_ShowNewCaseRate_script)
+        self.daily_death = tk.Button(self,text="Show daily death",command=self.run_ShowDailyDeath_script)
         self.submit.pack()
+        self.daily_rate.pack()
+        self.daily_death.pack()
     
+    def run_ShowNewCaseRate_script(self):
+        import showNewCaseRate
+
+    def run_ShowDailyDeath_script(self):
+        import showDailyDeath
+
     def update_JSON(self):
         with open("datas\cases.json") as file:
             data = json.load(file)
