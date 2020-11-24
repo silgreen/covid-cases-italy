@@ -337,10 +337,16 @@
             "death": 562
         },
         {
-            "date": "24/11/20",
+            "date": "23/11/20",
             "number_of_tests": 148945,
             "number_of_new_cases": 22930,
             "death": 630
+        },
+        {
+            "date": "24/11/20",
+            "number_of_tests": 188659,
+            "number_of_new_cases": 23232,
+            "death": 853
         }
     ]
 }
