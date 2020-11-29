@@ -365,6 +365,18 @@
             "number_of_tests": 222803,
             "number_of_new_cases": 28352,
             "death": 827
+        },
+        {
+            "date": "28/11/20",
+            "number_of_tests": 225940,
+            "number_of_new_cases": 26323,
+            "death": 686
+        },
+        {
+            "date": "29/11/20",
+            "number_of_tests": 176934,
+            "number_of_new_cases": 20648,
+            "death": 541
         }
     ]
 }
