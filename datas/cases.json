@@ -377,6 +377,12 @@
             "number_of_tests": 176934,
             "number_of_new_cases": 20648,
             "death": 541
+        },
+        {
+            "date": "30/11/20",
+            "number_of_tests": 130524,
+            "number_of_new_cases": 16377,
+            "death": 672
         }
     ]
 }
