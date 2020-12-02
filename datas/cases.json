@@ -383,6 +383,18 @@
             "number_of_tests": 130524,
             "number_of_new_cases": 16377,
             "death": 672
+        },
+        {
+            "date": "01/12/20",
+            "number_of_tests": 182100,
+            "number_of_new_cases": 19350,
+            "death": 785
+        },
+        {
+            "date": "02/12/20",
+            "number_of_tests": 207143,
+            "number_of_new_cases": 20709,
+            "death": 684
         }
     ]
 }
