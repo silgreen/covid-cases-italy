@@ -395,6 +395,12 @@
             "number_of_tests": 207143,
             "number_of_new_cases": 20709,
             "death": 684
+        },
+        {
+            "date": "03/12/20",
+            "number_of_tests": 226729,
+            "number_of_new_cases": 23225,
+            "death": 993
         }
     ]
 }
