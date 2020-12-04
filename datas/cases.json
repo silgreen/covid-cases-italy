@@ -401,6 +401,12 @@
             "number_of_tests": 226729,
             "number_of_new_cases": 23225,
             "death": 993
+        },
+        {
+            "date": "04/12/20",
+            "number_of_tests": 212741,
+            "number_of_new_cases": 24099,
+            "death": 814
         }
     ]
 }
