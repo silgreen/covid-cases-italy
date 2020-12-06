@@ -413,6 +413,12 @@
             "number_of_tests": 194984,
             "number_of_new_cases": 21052,
             "death": 662
+        },
+        {
+            "date": "06/12/20",
+            "number_of_tests": 165550,
+            "number_of_new_cases": 18887,
+            "death": 564
         }
     ]
 }
