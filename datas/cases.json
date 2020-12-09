@@ -425,6 +425,12 @@
             "number_of_tests": 111217,
             "number_of_new_cases": 13720,
             "death": 528
+        },
+        {
+            "date": "08/12/20",
+            "number_of_tests": 149232,
+            "number_of_new_cases": 14842,
+            "death": 634
         }
     ]
 }
