@@ -431,6 +431,24 @@
             "number_of_tests": 149232,
             "number_of_new_cases": 14842,
             "death": 634
+        },
+        {
+            "date": "09/12/20",
+            "number_of_tests": 118475,
+            "number_of_new_cases": 12756,
+            "death": 499
+        },
+        {
+            "date": "10/12/20",
+            "number_of_tests": 171586,
+            "number_of_new_cases": 16999,
+            "death": 887
+        },
+        {
+            "date": "11/12/20",
+            "number_of_tests": 190416,
+            "number_of_new_cases": 18727,
+            "death": 761
         }
     ]
 }
